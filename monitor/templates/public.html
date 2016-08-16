@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        
+        <title>{% block title %}{% endblock %}</title>
+        
+        <!-- Bootstrap -->
+        <link href="/static/css/bootstrap.css" rel="stylesheet">
+        <script src="/static/js/jquery-1.11.0.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <!--WdatePicker my97date 日期控件-->
+        <script src="/static/js/My97datepicker/WdatePicker.js"></script>
+        <!-- homejs-->
+        <script language="JavaScript" type="text/javascript" src="/static/js/prototype.js"></script>
+        <script language="JavaScript" type="text/javascript" src="/static/js/ymPrompt.js"></script>
+        <script language="JavaScript" type="text/javascript" src="/static/js/bash.js"></script>
+        {% block head %}{% endblock %}
+        <style type="text/css">
+            body {
+                padding-top: 70px;
+                font-family:"微软雅黑";
+            }
+            .nav li a{ font-size:16px; }
+            .input{ padding-top: 0px; padding-bottom: 0px; margin: 0px; height:10px;}
+
+            ul.errorlist {margin: 0; pandding: 0;}
+            .errorlist li {color: red ;}
+
+            .glyphicon { margin-right:10px; }
+            .panel-body { padding:0px; }
+            .panel-body table tr td { padding-left: 15px }
+            .panel-body .table {margin-bottom: 0px; } 
+        </style>
+    </head>
+    
+    <body>
+        <!-- 导航栏 -->
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">业务线监控系统</a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                {% if user.is_authenticated %}
+                    <ul class="nav navbar-nav">
+                        <li {% if request.path == '/' %} class="active" {% endif %}><a href="/">Home</a></li>
+                        <li {% if 'about' in request.path %} class="active" {% endif %}><a href="/about">关于</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right" style="padding-right: 1%">
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> {{ request.user.username }} <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href={% url "changepasswordurl" %}>修改密码</a></li>
+                                <li class="divider"></li>
+                                <li><a href={% url "logouturl" %}>注销登陆</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                {% else %}
+                    <ul class="nav navbar-nav">
+                        <li {% if 'login' in request.path %} class="active" {% endif %}><a href={% url "loginurl" %}>登陆</a></li>
+                        <li {% if 'about' in request.path %} class="active" {% endif %}><a href="/about">关于</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right" style="padding-right: 1%">
+                        <li {% if 'help' in request.path %} class="active" {% endif %}><a href="#">帮助</a></li>
+                    </ul>
+
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- 内容区域 -->
+        <div class="container" style="width:95%">
+            <div class="row">
+                <div class="col-md-2"> 
+                    {% if user.is_authenticated %}
+                        <!-- 侧边栏 -->
+                        {% include "side.html" %}
+                    {% endif %}
+                </div>
+        
+                <div class="col-md-10">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <hr />
+            <p class="text-muted">&copy; 业务线监控系统</p>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,57 @@
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed"><span class="glyphicon glyphicon-list-alt btn-xs"></span>业务线监控管理</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse {% if '/' in request.path %} in {% endif %}">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tbody><tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-tree-conifer btn-xs"></span><a href={% url "listmonitorurl" %}>添加应用</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-tree-conifer btn-xs"></span><a href="/">业务线监控</a>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed"><span class="glyphicon glyphicon-list-alt btn-xs"></span>用户管理</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse {% if 'accounts' in request.path %} in {% endif %}">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-tree-conifer btn-xs"></span><a href={% url "listuserurl" %}>用户管理</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-tree-conifer btn-xs"></span><a href={% url "listroleurl" %}>角色管理</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-tree-conifer btn-xs"></span><a href={% url "listpermissionurl" %}>权限管理</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>

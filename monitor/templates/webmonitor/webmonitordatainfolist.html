@@ -1,0 +1,52 @@
+{% load AppFilter %}
+
+{% block content %}
+
+
+
+<table width="1024" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#cccccc">
+  <tr class="TitleText">
+    <td height="25" align="center" bgcolor="#808080">DNS解析时间(s)</td>
+    <td height="25" align="center" bgcolor="#808080">建立连接时间(s)</td>
+    <td height="25" align="center" bgcolor="#808080">准备传输时间(s)</td>
+    <td height="25" align="center" bgcolor="#808080">开始传输时间(s)</td>
+    <td height="25" align="center" bgcolor="#808080">传输总时间(s)</td>
+    <td height="25" align="center" bgcolor="#808080">HTTP状态</td>
+    <td height="25" align="center" bgcolor="#808080">下载数据包大小(byte)</td>
+    <td height="25" align="center" bgcolor="#808080">平均下载速度(byte/s)</td>
+    <td height="25" align="center" bgcolor="#808080">探测时间</td>
+  </tr>
+{% for i in contacts.object_list %}
+  <tr>
+    <td height="25" align="right" bgcolor="#FFFFFF">{{i.NAMELOOKUP_TIME}}</td>
+    <td height="25" align="right" bgcolor="#FFFFFF">{{i.CONNECT_TIME}}</td>
+    <td height="25" align="right" bgcolor="#FFFFFF">{{i.PRETRANSFER_TIME}}</td>
+    <td height="25" align="right" bgcolor="#FFFFFF">{{i.STARTTRANSFER_TIME}}</td>
+    <td height="25" align="right" bgcolor="#FFFFFF">{{i.TOTAL_TIME}}</td>
+    <td height="25" align="center" bgcolor="#FFFFFF">{{i.HTTP_CODE}}</td>
+    <td height="25" align="center" bgcolor="#FFFFFF">{{i.SIZE_DOWNLOAD}}</td>
+    <td height="25" align="center" bgcolor="#FFFFFF">{{i.SPEED_DOWNLOAD}}</td>
+    <td height="25" align="center" bgcolor="#FFFFFF">{{i.DATETIME|result_datetime}}</td>
+  </tr>
+{% endfor %}
+</table>
+
+<br>
+<div class="pagination" align="center">
+    <span class="step-links">
+	<a href="?page=1&appid={{ID}}&StartTime={{StartTime}}&EndTime={{EndTime}}">[首页]</a>
+        {% if contacts.has_previous %}
+            &nbsp;&nbsp;<a href="?page={{ contacts.previous_page_number }}&appid={{ID}}&StartTime={{StartTime}}&EndTime={{EndTime}}">[上一页]</a>
+        {% endif %}
+        {% if contacts.has_next %}
+            &nbsp;&nbsp;<a href="?page={{ contacts.next_page_number }}&appid={{ID}}&StartTime={{StartTime}}&EndTime={{EndTime}}">[下一页]</a>
+        {% endif %}
+	&nbsp;&nbsp;<a href="?page={{ contacts.paginator.num_pages }}&appid={{ID}}&StartTime={{StartTime}}&EndTime={{EndTime}}">[尾页]</a>
+    </span>
+        <span class="current">
+         &nbsp;&nbsp;&nbsp;&nbsp;当前页：{{ contacts.number }}/总页：{{ contacts.paginator.num_pages }}
+        </span>
+</div>
+
+
+{% endblock %}

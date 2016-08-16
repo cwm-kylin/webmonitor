@@ -1,0 +1,706 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>海文考研</title>
+<meta name="keywords" content="2016考研,研招网, 海文考研,考研英语,考研数学,考研政治,考研专业课,复试调剂,考研资讯">
+<meta name="description" content="海文考研为考生提供2016考研时间，2016考研报名时间，考研辅导，考研真题，考研英语、考研政治，考研数学信息，海文考研网致力于为广大考研学子提供一站式的考研学习服务平台">
+<link type="text/css" rel="stylesheet" href="http://kaoyan.wanxue.cn/statics/css/global.css" />
+<link type="text/css" rel="stylesheet" href="http://kaoyan.wanxue.cn/statics/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://kaoyan.wanxue.cn/statics/css/com_right.css" />
+<link type="text/css" rel="stylesheet" href="http://kaoyan.wanxue.cn/statics/css/index_css/ncommon.css" />
+<link type="text/css" rel="stylesheet" href="http://kaoyan.wanxue.cn/statics/css/index_css/index.css" />
+<link type="text/css" rel="stylesheet" href="http://kaoyan.wanxue.cn/statics/css/index_css/global.css" />
+<script src="http://kaoyan.wanxue.cn/statics/js/jquery.js" type="text/javascript"></script>
+<script src="http://kaoyan.wanxue.cn/statics/js/index_js/menu.js" type="text/javascript"></script>
+<script src="http://kaoyan.wanxue.cn/statics/js/index_js/luara.js" type="text/javascript"></script>
+<script type="text/javascript"> var _trc_=_trc_ || {}, _prm_=_prm_ || {};  (function() {  var e = document.createElement("script");  e.src = "//trac.imarvelous.cn/tracking.js?03e2c6f5fe7914cc530ce02262563967";  var s = document.getElementsByTagName("script")[0];  s.parentNode.insertBefore(e, s);  })(); 
+</script>
+<script>
+$(document).ready(
+  function(){
+    var timer5 = 0;
+    $(".allschool p").mouseenter(
+        function(){
+            clearTimeout(timer5);
+            $(".school").show();
+            $(".allschool p").addClass('cur');
+        }
+    );
+    $(".allschool p").mouseleave(function(){
+        kHiden();
+        $(".allschool p").removeClass('cur');
+    });
+    $(".school").mouseenter(function(){
+        clearTimeout(timer5);
+        $(".allschool p").addClass('cur');
+    });
+    $(".school").mouseleave(function(){
+        $(".allschool p").removeClass('cur');
+        kHiden();
+    });
+    function kHiden(){
+        timer5 = setTimeout(function(){$(".school").hide()},100)
+    }
+  }
+);
+</script>
+</head>
+<body>
+<!-- 加载猜你喜欢漂浮-->
+<div class="fixed-bottom" id="fixed">
+	<div class="fixed-cont">
+    <span>猜你喜欢</span>
+    <a href="http://www7.53kf.com/webCompany.php?arg=9006495&style=2" target="_blank">考研报名流程</a>
+    <a href="http://www7.53kf.com/webCompany.php?arg=9006495&style=2" target="_blank">考研科目分析</a>
+    <a href="http://www7.53kf.com/webCompany.php?arg=9006495&style=2" target="_blank">考研学习方案</a>
+    <a href="http://www7.53kf.com/webCompany.php?arg=9006495&style=2" target="_blank">封闭特训营</a>
+    <a href="http://www7.53kf.com/webCompany.php?arg=9006495&style=2" target="_blank">钻石卡</a>
+    <a href="http://www7.53kf.com/webCompany.php?arg=9006495&style=2" target="_blank">考研保录方案</a>
+    <a href="http://www7.53kf.com/webCompany.php?arg=9006495&style=2" target="_blank">考研专家一对一答疑</a>
+    <a href="javascript:void(0)" class="turnoff">关闭</a>
+  </div>
+</div>
+<p class="cai-like">猜你喜欢</p>
+<script type="text/javascript">
+function chat() {  
+  $(".fixed-bottom").stop(true,true).animate({"margin-left":"0px"},500);
+  $(".cai-like").css("display","none"); 
+  $(".fixed-bottom").css("background","#f3f3f3");
+}
+$(function(){ 
+ //猜你喜欢
+  setInterval(chat, "30000"); 
+  $(".fixed-bottom").stop(true,true).animate({"margin-left":"0px"},500); 
+  $(".turnoff").click(function(){
+  $(".fixed-bottom").stop(true,true).animate({"margin-left":"-2000px"},500);
+  $(".cai-like").css("display","block");
+  $(".fixed-bottom").css("background","none");
+  });
+  $(".cai-like").click(function(){
+  $(".fixed-bottom").stop(true,true).animate({"margin-left":"0px"},500); 
+  $(".cai-like").css("display","none");
+  $(".fixed-bottom").css("background","#f3f3f3");
+  })
+})
+</script>
+<div class="miniheader">
+  <div class="w960">
+    <ul class="fl">
+      <li><a href="http://www.wanxue.cn/">集团首页</a><span>|</span></li>
+      <li><a href="http://gwy.wanxue.cn/">金路公务员</a><span>|</span></li>
+      <li><a href="http://job.wanxue.cn/">ACT职业能力</a></li>
+    </ul>
+    <ul class="fr">
+      <li><a href="http://kaoyan.wanxue.cn/index.php?m=member&c=index&a=login&siteid=1">登录</a><span>|</span></li>
+      <li><a href="http://kaoyan.wanxue.cn/index.php?m=member&c=index&a=register&siteid=1">注册</a></li>
+      <li><a href="http://weibo.com/haiwen" target="_blank"><span class="ico weibo"></span>微博</a><span>|</span></li>
+      <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5NDk2MTAxMQ==&mid=400102264&idx=1&sn=61dec32816083f846a1e7d7f5ad30887&scene=1&srcid=1021PR1sfxJ5rEVSWQDAJapW#rd" target="_blank"><span class="ico weixin"></span>微信</a><span>|</span></li>
+      <li><a href="http://page.renren.com/600003048/channel-21569" target="_blank"><span  class="ico renren"></span>人人网</a></li>
+    </ul>
+  </div>
+</div>
+<!--Top-->
+<div class="top">
+  <div class="w960 clearfix">
+    <div class="tMar20">
+		  <a href="http://kaoyan.wanxue.cn/zt/2015hhwx/"><img src="http://kaoyan.wanxue.cn/statics/images/index_img/headbanner.jpg" /></a>
+	   </div>
+    <div class="logo clearfix">
+		<a href="http://kaoyan.wanxue.cn"><img src="http://kaoyan.wanxue.cn/statics/images/index_img/logo.gif" class="fl" title="万学教育海文考研" /></a>
+		<div class="allschool fl ">
+    		<p>全国分校<span class="line">|</span></p>
+    		<ul class="school">                                                                            
+    			<li><a href="http://kaoyan.wanxue.cn/beijing/" target="_blank">北京</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/tianjin/" target="_blank">天津</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/hebei/" target="_blank">河北</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/shanxi/" target="_blank">山西</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/henan/" target="_blank">河南</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/jilin/" target="_blank">吉林</a></li>
+    			<li class="w43"><a href="http://kaoyan.wanxue.cn/hlj/" target="_blank">黑龙江</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/shenyang/" target="_blank">沈阳</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/dalian/" target="_blank">大连</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/qingdao/" target="_blank">青岛</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/jinan/" target="_blank">济南</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/shanghai/" target="_blank">上海</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/zhejiang/" target="_blank">浙江</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/jiangxi/" target="_blank">江西</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/jiangsu/" target="_blank">江苏</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/anhui/" target="_blank">安徽</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/hubei/" target="_blank">湖北</a></li>    			    
+    			<li><a href="http://kaoyan.wanxue.cn/sx/" target="_blank">陕西</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/sichuan/" target="_blank">四川</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/chongqing/" target="_blank">重庆</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/hunan/" target="_blank">湖南</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/fujian/" target="_blank">福建</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/guangdong/" target="_blank">广东</a></li>    			
+    			<li><a href="javascript:void(0);" target="_self" target="_blank">广西</a></li>
+    			<li><a href="javascript:void(0);" target="_self" target="_blank">贵州</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/gansu/" target="_blank">甘肃</a></li>
+    			<li><a href="http://kaoyan.wanxue.cn/ningxia/" target="_blank">宁夏</a></li>
+    			<li class="w43"><a href="javascript:void(0);" target="_self">内蒙古</a></li>
+    			<li><a href="javascript:void(0);" target="_self">新疆</a></li>
+    		</ul>
+    	</div>
+		<img src="http://kaoyan.wanxue.cn/statics/images/index_img/headbanner2.gif" class="fr" title="遥遥领先的中国第一考研品牌" />
+	</div>
+	<div class="menu">
+    <ul class="clearfix">
+        <li class="no1">
+            <a href="http://kaoyan.wanxue.cn/s/one/wx_glory.html" target="_blank" class="tmar"></a>
+        </li>
+        <li class="no2">
+            <a href="http://kaoyan.wanxue.cn/zt/zsk/" target="_blank"></a>
+        </li>
+        <li class="no3">
+            <a href="http://online.wanxue.cn/super/kaoyan/product/ggk/index.html" target="_blank" class="tmar"></a>
+        </li>
+        <li class="no4">
+            <a href="http://online.wanxue.cn/index.php" target="_blank" class="tmar"></a>
+        </li>
+        <li class="no5">
+            <a href="http://kaoyan.wanxue.cn/zhinengyun/" target="_blank" class="tmar"></a>
+        </li>
+        <li class="no6">
+            <a href="http://online.wanxue.cn/super/kaoyan/product/zyk/index.html" target="_blank" class="tmar"></a>
+        </li>
+        <li class="no7">
+            <a href="http://kaoyan.wanxue.cn/mba/" target="_blank" class="tmar"></a>
+        </li>
+        <li class="no8">
+            <a href="http://txy.wanxue.cn/" target="_blank" class="tmar"></a>
+        </li>
+        <li class="no9">
+            <a href="http://kaoyan.wanxue.cn/zt/dldxjrss/" target="_blank"></a>
+        </li>
+        <li class="no10">
+            <a href="http://s.wanxue.cn/" target="_blank" class="tmar"></a>
+        </li> 
+        <li class="no11">
+            <a href="http://kaoyan.wanxue.cn/zt/yxxy/" target="_blank" class="tmar"></a>
+        </li>
+        <li class="no12">
+            <a href="http://g.wanxue.cn/" target="_blank" class="tmar"></a>
+        </li>   
+        <li class="no13">
+            <a href="http://kaoyan.wanxue.cn/special/2016/fstj/" target="_blank" class="tmar"></a>
+        </li>
+    </ul>
+  </div>
+  </div>
+
+<link type="text/css" rel="stylesheet" href="http://kaoyan.wanxue.cn/statics/css/index_css/kyzx.css" />
+<link type="text/css" rel="stylesheet" href="http://kaoyan.wanxue.cn/statics/css/gw.css" />
+<script type="text/javascript">
+  $(function(){
+    $(".col00 .content .news").eq(0).css("display","block");
+      $(".title a").mouseover(function(){
+          $(this).addClass('on').siblings().removeClass('on');
+        $(".col00 .content .news").eq($(this).index()).show().siblings().hide();
+      });
+  });
+</script>
+<!--焦点图-->
+<div class="banner">
+  <ul class="pic">
+    <li class="banner09"><a href="http://kaoyan.wanxue.cn/zt/2016ztjx/" target="_blank"></a></li>
+    <li class="banner07"><a href="http://kaoyan.wanxue.cn/zt/2015mzzt" target="_blank"></a></li>
+    <!-- <li class="banner08"><a href="http://s.wanxue.cn/" target="_blank"></a></li> -->
+    <!-- <li class="banner01"><a href="http://g.wanxue.cn/" target="_blank"></a></li> -->
+    <!-- <li class="banner02"><a href="http://kaoyan.wanxue.cn/special/2016/fstj/" target="_blank"></a></li> -->
+    <li class="banner03"><a href="http://kaoyan.wanxue.cn/special/2017/qntxy_pc/#course" target="_blank"></a></li>  	
+    <!-- <li class="banner04"><a href="http://kaoyan.wanxue.cn/special/2015/hjy_pc/" target="_blank"></a></li> -->
+    <li class="banner05"><a href="http://kaoyan.wanxue.cn/zt/mftyy/" target="_blank"></a></li>
+    <li class="banner06"><a href="http://kaoyan.wanxue.cn/zt/sqtxy/#course" target="_blank"></a></li>  
+    
+  </ul>
+  <div class="w960">
+    <div class="num"><span class="cur"><em>1</em></span> <span><em>2</em></span> <span><em>3</em></span> <span><em>4</em></span> <span><em>5</em></span> <!--<span><em>6</em></span>  <span><em>7</em></span> <span><em>8</em> </span> <span><em>9</em> </span> --></div>
+  </div>
+</div>
+
+<!--wrapper-->
+<div class="w960"> 
+  <!--权威报道&高端关注-->
+  <div class="con01">
+    <div class="conl fl">
+      <h2><a href="http://kaoyan.wanxue.cn/news/" target="_blank" class="more fr">更多>></a><span>权威报道</span></h2>
+      <dl>
+      			        	<dt><a href="http://kaoyan.wanxue.cn/zixun/kuaixun/6885-1.html" target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2014/0910/20140910041828990.jpg" width="160" height="124" /></a></dt>
+        	<dd class="tit"><a href="http://kaoyan.wanxue.cn/zixun/kuaixun/6885-1.html" title="【新华网】万学教育五年十亿打造大学生全面发展教育平台" target="_blank">【新华网】万学教育五年十亿打造大学生全面发展教育平台</a></dd>
+        	<dd>　　2011年2月22日，北京万学教育科技集团正式宣布美国顶级投资机构DCM、红杉资本、国内著名风投基金联想投资和新加坡凤凰基金共同注资万学教...<a href="http://kaoyan.wanxue.cn/zixun/kuaixun/6885-1.html">详情</a></dd>
+            	        </dl>
+      <ul>
+      			        	<li><a href="http://kaoyan.wanxue.cn/info/4657-1.html" title="【光明日报】重点报道万学总裁张锐 - 实现梦想的创业之路" target="_blank">【光明日报】重点报道万学总裁张锐 - 实现梦想的创业之路</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/info/4655-1.html" title="【经济日报】专题报道万学总裁张锐-脚踏实地成就创业梦想" target="_blank">【经济日报】专题报道万学总裁张锐-脚踏实地成就创业梦想</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/info/4654-1.html" title="【人民日报】专访万学教育总裁张锐 创业就是迎接挑战" target="_blank">【人民日报】专访万学教育总裁张锐 创业就是迎接挑战</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/news/280-1.html" title="【腾讯网】海文考研北京分校2016高分学员颁奖典礼圆满成功" target="_blank">【腾讯网】海文考研北京分校2016高分学员颁奖典礼圆满成功</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/zixun/kuaixun/7231-1.html" title="【北京考试报】特别报道明年考研热度或延续" target="_blank">【北京考试报】特别报道明年考研热度或延续</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/info/4717-1.html" title="【北京考试报】专访专业课老师指导外国语言学复习" target="_blank">【北京考试报】专访专业课老师指导外国语言学复习</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/news/269-1.html" title="【北京商报】“微信押题”成今年考研新时尚" target="_blank">【北京商报】“微信押题”成今年考研新时尚</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/news/283-1.html" title="【中关村管委会】科技处走访互联网教育企业万学教育集团" target="_blank">【中关村管委会】科技处走访互联网教育企业万学教育集团</a></li>
+        		        </ul>
+    </div>
+    <div class="conl fr">
+      <h2><a href="http://kaoyan.wanxue.cn/info/" target="_blank" class="more fr">更多>></a><span>高端关注</span></h2>
+      <dl class="dlr">
+      			        	<dt><a href="http://kaoyan.wanxue.cn/info/11808-1.html" target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2015/1213/20151213021105191.jpg" width="160" height="124" /></a></dt>
+        	<dd class="tit"><a href="http://kaoyan.wanxue.cn/info/11808-1.html" title="热烈祝贺万学教育荣获新浪、腾讯、新华网、中国网五项大奖" target="_blank">热烈祝贺万学教育荣获新浪、腾讯、新华网、中国网五项大奖</a></dd>
+        	<dd>近日，A12教育旗舰企业万学教育在全国众多教育集团中脱颖而出，荣获2015年度新浪、腾讯、新华网、中国网各大权威机构五项大奖 ，万学......<a href="http://kaoyan.wanxue.cn/info/11808-1.html" target="_blank">详情</a></dd>
+            	        </dl>
+      <ul>
+      			        	<li><a href="http://kaoyan.wanxue.cn/info/12414-1.html" title="【腾讯教育】海文考研2016学员初试复试再创历史记录" target="_blank">【腾讯教育】海文考研2016学员初试复试再创历史记录</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/info/12267-1.html" title="【腾讯教育】专访万学海文名师深度解读：四大变量决定考研命运" target="_blank">【腾讯教育】专访万学海文名师深度解读：四大变量决定考</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/info/9919-1.html" title="【新浪网】专访万学教育梁伟伟：用互联网思维做教育" target="_blank">【新浪网】专访万学教育梁伟伟：用互联网思维做教育</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/info/9922-1.html" title="【腾讯网】张锐：大数据时代的在线教育将开创教育新纪元" target="_blank">【腾讯网】张锐：大数据时代的在线教育将开创教育新纪元</a></li>
+        	        	<li><a href="/info/11722-1.html" title="【新浪网】万学张强：线下教育机构转线上是历史必然" target="_blank">【新浪网】万学张强：线下教育机构转线上是历史必然</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/info/9924-1.html" title="【中国日报】万学吴本文： 利用互联网技术，“因人施教”" target="_blank">【中国日报】万学吴本文： 利用互联网技术，“因人施教”</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/info/9527-1.html" title="【腾讯网】专访万学教育副总裁吴本文：万学的超级教育理想" target="_blank">【腾讯网】专访万学教育副总裁吴本文：万学的超级教育理</a></li>
+        	        	<li><a href="http://kaoyan.wanxue.cn/info/9524-1.html" title="【腾讯网】万学教育获百度等三家机构数千万美金投资 " target="_blank">【腾讯网】万学教育获百度等三家机构数千万美金投资 </a></li>
+        		        </ul>
+    </div>
+  </div>
+  <!--高手资讯开始-->
+  <div class="kyzx_part">
+  <div class="col-nav">
+    <h2><span>考研资料与资讯<span style="font-family: '黑体';font-size: 26px;color: rebeccapurple;">&nbsp;超级数据库</span></span></h2>
+  </div>
+  <div class="wrap960">
+    <div class="col00">
+      <div class="title">
+        <a href="/index.php?m=content&c=index&a=gsil&type=01" class="on no1" target="_blank">政策与新闻</a>
+        <a href="/index.php?m=content&c=index&a=gsil&type=02" target="_blank">招生简章</a>
+        <a href="/index.php?m=content&c=index&a=gsil&type=03" target="_blank">专业目录</a>
+        <a href="/index.php?m=content&c=index&a=gsil&type=04" target="_blank">报录信息</a>
+        <a href="/index.php?m=content&c=index&a=gsil&type=05" target="_blank">学习资料</a>
+        <a href="/index.php?m=content&c=index&a=gsil&type=06" target="_blank">备考指导</a>
+        <a href="/index.php?m=content&c=index&a=gsil&type=07" target="_blank">复试调剂</a>
+        <a href="/index.php?m=content&c=index&a=gsil&type=08" target="_blank" class="last">其他</a>
+      </div>
+      <div class="content">
+        <div class="news">
+          <img src="http://kaoyan.wanxue.cn/statics/images/index_img/pictrue.jpg" />
+                    <ul>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66286" target="_blank"> 中南民族大学2017年硕士研究生招生简章</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66281" target="_blank"> 重庆工商大学2017年硕士研究生招生考试问答</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66279" target="_blank"> 重庆工商大学2017年接收推荐免试攻读硕士学位研究生章程</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66278" target="_blank"> 湖北工业大学2017年全日制硕士研究生报考须知</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66276" target="_blank"> 武汉工程大学2017年硕士研究生报考常见问题解答</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66274" target="_blank"> 首都经济贸易大学关于2017年接收推荐免试攻读硕士学位预申请的通知</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66273" target="_blank"> 首都经济贸易大学部分专业2017年硕士研究生入学考试初试科目的通知</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66225" target="_blank"> 重庆医科大学医学类硕士研究生招生考试改革相关问题答疑</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66210" target="_blank"> 江西师范大学2016级研究生新生报到时间定为9月10日</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66209" target="_blank"> 江西师范大学2017年接收推免生攻读硕士学位简章</a></li>
+                      </ul>
+                    <div class="View_details"><a href="/index.php?m=content&c=index&a=gsil&type=01" target="_blank">查看更多>></a></div>
+        </div>
+        <div class="news">
+          <img src="http://kaoyan.wanxue.cn/statics/images/index_img/pictrue2.jpg" />
+                    <ul>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66288" target="_blank"> 闽南师范大学2017年硕士研究生招生简章</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66287" target="_blank"> 江汉大学2017年硕士研究生招生简章</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66283" target="_blank"> 重庆通信学院2017年硕士研究生招生简章</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66282" target="_blank"> 重庆工商大学2017年招收攻读硕士学位研究生简章</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66280" target="_blank"> 湖北工业大学、武汉生物工程学院2017年联合培养全日制硕士研究生招生简章</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66277" target="_blank"> 武汉工程大学2017年硕士研究生招生简章</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66275" target="_blank"> 中国矿业大学2017年接收推荐免试硕士研究生章程</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66227" target="_blank"> 重庆科技学院2017年全日制硕士专业学位研究生招生简章</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66157" target="_blank"> 武汉大学2016年招收攻读硕士学位研究生简章</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66159" target="_blank"> 华中科技大学2016年硕士学位研究生招生简章</a></li>
+                      </ul>
+                    <div class="View_details"><a href="/index.php?m=content&c=index&a=gsil&type=02" target="_blank">查看更多>></a></div>
+        </div>
+        <div class="news">
+          <img src="http://kaoyan.wanxue.cn/statics/images/index_img/pictrue3.jpg" />
+                    <ul>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66272" target="_blank"> 中央财经大学2017年招收攻读硕士学位研究生学科专业目录 -商学院 物流管理 (1202Z2)</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66271" target="_blank"> 中央财经大学2017年招收攻读硕士学位研究生学科专业目录 -商学院 人力资源管理 (1202Z1)</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66270" target="_blank"> 中央财经大学2017年招收攻读硕士学位研究生学科专业目录 -商学院 技术经济及管理 -120204</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66269" target="_blank"> 中央财经大学2017年招收攻读硕士学位研究生学科专业目录 -商学院 企业管理 -120202 </a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66268" target="_blank"> 中央财经大学2017年招收攻读硕士学位研究生学科专业目录 -商学院 企业管理 -120202 </a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66267" target="_blank"> 中央财经大学2017年招收攻读硕士学位研究生专业目录 -税务学院-税收学 (0202Z9) </a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66266" target="_blank"> 中央财经大学2017年招收攻读硕士学位研究生专业目录 -税务学院-税务 -25300 </a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=29862" target="_blank"> 中央财经大学2016年招收攻读硕士学位研究生专业目录 -税务学院-税务 -25300 </a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66242" target="_blank"> 中央财经大学2017年招收攻读硕士学位研究生专业目录-中国公共财政与政策研究院-区域经济学 -20202</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66240" target="_blank"> 中央财经大学2017年招收攻读硕士学位研究生专业目录-中国财政发展协同创新中心-财政学 -20203 　</a></li>
+                      </ul>
+                    <div class="View_details"><a href="/index.php?m=content&c=index&a=gsil&type=03" target="_blank">查看更多>></a></div>
+        </div>
+        <div class="news">
+          <img src="http://kaoyan.wanxue.cn/statics/images/index_img/pictrue4.jpg" />
+                    <ul>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66285" target="_blank"> 宁夏大学关于发放2016年硕士研究生录取通知书的通知</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66150" target="_blank"> 2016年东北林业大学硕士研究生拟录取名单公示</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66149" target="_blank"> 关于发布哈尔滨医科大学2016年统考硕士研究生拟录取名单的通知</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66148" target="_blank"> 哈尔滨理工大学2016年硕士研究生入学考试拟录取名单汇总公示</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66147" target="_blank"> 黑龙江大学关于2016年拟录取硕士研究生调研信息的说明</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66146" target="_blank"> 黑龙江大学2016年硕士拟录取名单公示</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66138" target="_blank"> 2016年哈尔滨医科大学硕士研究生拟录取结果查询</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66137" target="_blank"> 东北农业大学2016年硕士研究生进入复试的初试分数线</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66131" target="_blank"> 黑龙江科技大学2016年硕士研究生招生考试 一志愿考生进入复试的初试分数线要求</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66089" target="_blank"> 中国美术学院2016年招收攻读硕士学位研究生成绩查询及拟录取名单公示</a></li>
+                      </ul>
+                    <div class="View_details"><a href="/index.php?m=content&c=index&a=gsil&type=04" target="_blank">查看更多>></a></div>
+        </div>
+        <div class="news">
+          <img src="http://kaoyan.wanxue.cn/statics/images/index_img/pictrue5.jpg" />
+                    <ul>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66284" target="_blank"> 重庆通信学院2017年硕士研究生招生参考书目</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66263" target="_blank"> 重庆科技学院2017年全日制硕士专业学位研究生招生考试同等学力加试科目考试大纲——安全检测与监控技术（862）</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66262" target="_blank"> 重庆科技学院2017年全日制硕士专业学位研究生招生考试同等学力加试科目考试大纲——安全管理学（861）</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66261" target="_blank"> 重庆科技学院2017年全日制硕士专业学位研究生招生考试同等学力加试科目考试大纲——电路原理（859）</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66260" target="_blank"> 重庆科技学院2017年全日制硕士专业学位研究生招生考试同等学力加试科目考试大纲——数字电子技术（858）</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66259" target="_blank"> 重庆科技学院2017年全日制硕士专业学位研究生招生考试同等学力加试科目考试大纲——数字电子技术（858）</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66258" target="_blank"> 重庆科技学院2017年全日制硕士专业学位研究生招生考试同等学力加试科目考试大纲——工程力学(857)</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66257" target="_blank"> 重庆科技学院2017年全日制硕士专业学位研究生招生考试同等学力加试科目考试大纲——工程材料（856）</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66256" target="_blank"> 重庆科技学院2017年全日制硕士专业学位研究生招生考试同等学力加试科目考试大纲——热处理原理与工艺（855）</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66255" target="_blank"> 重庆科技学院2017年全日制硕士专业学位研究生招生考试同等学力加试科目考试大纲——泵与压缩机（854）</a></li>
+                      </ul>
+                    <div class="View_details"><a href="/index.php?m=content&c=index&a=gsil&type=05" target="_blank">查看更多>></a></div>
+        </div>
+        <div class="news">
+          <img src="http://kaoyan.wanxue.cn/statics/images/index_img/pictrue6.jpg" />
+                    <ul>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=64218" target="_blank"> 【考研数学】利用导数讨论方程根的问题</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=64217" target="_blank"> 【词汇加油站】趣味记单词</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=64215" target="_blank"> 【英语小茶点】这个习语 “Tried and True” 你造吗？</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=64214" target="_blank"> 【考研数学】 Cauchy-Schwartz不等式的证明与应用</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=63815" target="_blank"> 【考研数学】证明题的辅助函数怎么构造</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=63811" target="_blank"> 【考研数学】洛必达法则</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=63822" target="_blank"> 【考研数学】一元函数的极值</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=63821" target="_blank"> 【考研政治】马克思是绝世的“三好生”</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=63820" target="_blank"> 【复试最强指导】如何应对考官英文问答</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=63819" target="_blank"> 【考研专业课—历史学】洪武四大案之空印案、郭桓案</a></li>
+                      </ul>
+                    <div class="View_details"><a href="/index.php?m=content&c=index&a=gsil&type=06" target="_blank">查看更多>></a></div>
+        </div>
+        <div class="news">
+          <img src="http://kaoyan.wanxue.cn/statics/images/index_img/pictrue7.jpg" />
+                    <ul>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=41541" target="_blank"> 天津职业技术师范大学2016年硕士研究生招生理学院复试范围及要求</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=4850" target="_blank"> 解放军南京政治学院2015年硕士研究生复试分数线</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=3990" target="_blank"> 外交学院2015年硕士研究生复试成绩查询及拟录取情况通知</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=9955" target="_blank"> 中国林业科学研究院2015年风景园林专业学位研究生复试成绩及拟录取名单</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66145" target="_blank"> 中共黑龙江省委党校2016年硕士研究生复试工作方案</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66144" target="_blank"> 中国地震局工程力学研究所2016年硕士研究生入学考试复试及录取工作方案</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66143" target="_blank"> 中国航空工业空气动力研究院调剂</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66142" target="_blank"> 哈尔滨商业大学2016年硕士研究生复试工作方案</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66141" target="_blank"> 牡丹江师范学院2016年硕士研究生复试通知</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66140" target="_blank"> 关于齐齐哈尔大学一志愿考生复试结果查询的通知</a></li>
+                      </ul>
+                    <div class="View_details"><a href="/index.php?m=content&c=index&a=gsil&type=07" target="_blank">查看更多>></a></div>
+        </div>
+        <div class="news">
+          <img src="http://kaoyan.wanxue.cn/statics/images/index_img/pictrue8.jpg" />
+                    <ul>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=5422" target="_blank"> 南京电子器件研究所考研常见问题</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=5427" target="_blank"> 南京电子器件研究所考研问答：招生数和分数线</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=64845" target="_blank"> 河北科技大学招收2016年“退役大学生士兵专项硕士研究生招生计划”相关事项通知 </a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66077" target="_blank"> 浙江农林大学2016级非全日制农业硕士入学报到须知</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66076" target="_blank"> 浙江农林大学非全日制农业硕士培养协议书（2016）</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66044" target="_blank"> 浙江工业大学2016年硕士招生学科、学位点简介(2015.9)</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66043" target="_blank"> 浙江工业大学2016年硕士研究生指导教师名单（二）</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66042" target="_blank"> 浙江工业大学2016年硕士研究生指导教师名单（一）</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=66040" target="_blank"> 浙江工商大学关于2016年定向就业硕士考生签订定向就业协议书的通知</a></li>
+                        <li>· <a href="/index.php?m=content&c=index&a=gsis&id=65998" target="_blank"> 宁波大学2016年硕士档案回寄地址</a></li>
+                      </ul>
+                    <div class="View_details"><a href="/index.php?m=content&c=index&a=gsil&type=08" target="_blank">查看更多>></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--高手资讯完-->
+  <div class="con02">
+    <h2><a href="http://kaoyan.wanxue.cn/shizi/" target="_blank" class="more fr">更多>></a><span>卓越教研团队</span></h2>
+    <ul class="teacher clearfix">
+      <li class="hover"><a href="http://kaoyan.wanxue.cn/shizi/gonggongke/zhengzhi" target="_blank">政治老师</a> | </li>
+      <li><a href="http://kaoyan.wanxue.cn/shizi/gonggongke/yingyu" target="_blank">英语老师</a> | </li>
+      <li><a href="http://kaoyan.wanxue.cn/shizi/gonggongke/shuxue" target="_blank">数学老师</a> | </li>
+      <li id="last"><a href="http://kaoyan.wanxue.cn/shizi/zhuanyeke" target="_blank">专业课老师</a></li>
+    </ul>
+    <div class="showtea">
+      <ul>
+      		        <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/zhengzhi/17-1.html" title="政治老师 郭继承"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0201/20130201050334318.jpg" alt="政治老师 郭继承" width="145" height="180" border="0" /></a> <span>郭继承</span> </li>
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/zhengzhi/134-1.html" title="政治老师 秋实"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2015/0817/20150817035928292.jpg" alt="政治老师 秋实" width="145" height="180" border="0" /></a> <span>秋实</span> </li>
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/zhengzhi/20-1.html" title="政治老师 王瑞岭"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704051201603.jpg" alt="政治老师 王瑞岭" width="145" height="180" border="0" /></a> <span>王瑞岭</span> </li>
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/zhengzhi/5-1.html" title="政治老师 金柳安"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0417/20130417103452592.jpg" alt="政治老师 金柳安" width="145" height="180" border="0" /></a> <span>金柳安</span> </li>
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/zhengzhi/67-1.html" title="政治老师 郭继武"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704052337200.jpg" alt="政治老师 郭继武" width="145" height="180" border="0" /></a> <span>郭继武</span> </li>
+        	        		        <li class="rp"> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/zhengzhi/1-1.html" title="政治老师 王斌"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704051623159.jpg" alt="政治老师 王斌" width="145" height="180" border="0" /></a> <span>王斌</span> </li>
+        	        </ul>
+    </div>
+    <div class="showtea" style="display:none;">
+      <ul>
+      		        <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/yingyu/26-1.html" title="英语老师 付博"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0201/20130201092742853.jpg" alt="英语老师 付博" width="145" height="180" border="0" /></a> <span>付博</span> </li>
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/yingyu/28-1.html" title="英语老师 蒋 华"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704050708151.jpg" alt="英语老师 蒋 华" width="145" height="180" border="0" /></a> <span>蒋 华</span> </li>
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/yingyu/27-1.html" title="英语老师 李伟"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2014/0422/20140422111615484.jpg" alt="英语老师 李伟" width="145" height="180" border="0" /></a> <span>李伟</span> </li>
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/yingyu/63-1.html" title="英语老师 毛利锋"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704052159324.jpg" alt="英语老师 毛利锋" width="145" height="180" border="0" /></a> <span>毛利锋</span> </li>
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/yingyu/78-1.html" title="英语老师 徐雯"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704053053736.jpg" alt="英语老师 徐雯" width="145" height="180" border="0" /></a> <span>徐雯</span> </li>
+        	        		        <li class="rp"> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/yingyu/56-1.html" title="英语老师 姜鹏浩"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704051808197.jpg" alt="英语老师 姜鹏浩" width="145" height="180" border="0" /></a> <span>姜鹏浩</span> </li>
+        	        </ul>
+    </div>
+    <div class="showtea" style="display:none;">
+      <ul>
+      		        <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/shuxue/13-1.html" title="数学老师 赵达夫"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0129/20130129033107978.jpg" alt="数学老师 赵达夫" width="145" height="180" border="0" /></a> <span>赵达夫</span> </li>	
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/shuxue/32-1.html" title="数学老师 丁 勇"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704050735397.jpg" alt="数学老师 丁 勇" width="145" height="180" border="0" /></a> <span>丁 勇</span> </li>	
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/shuxue/33-1.html" title="数学老师 邬丽丽"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704050527222.jpg" alt="数学老师 邬丽丽" width="145" height="180" border="0" /></a> <span>邬丽丽</span> </li>	
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/shuxue/34-1.html" title="数学老师 李兰巧"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704050229589.jpg" alt="数学老师 李兰巧" width="145" height="180" border="0" /></a> <span>李兰巧</span> </li>	
+                <li> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/shuxue/71-1.html" title="数学老师 徐婕"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704052602242.jpg" alt="数学老师 徐婕" width="145" height="180" border="0" /></a> <span>徐婕</span> </li>	
+        	        		        <li class="rp"> <a href="http://kaoyan.wanxue.cn/shizi/gonggongke/shuxue/52-1.html" title="数学老师 郭啸龙"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2013/0704/20130704051233769.jpg" alt="数学老师 郭啸龙" width="145" height="180" border="0" /></a> <span>郭啸龙</span> </li>	
+        	        </ul>
+    </div>
+    <div class="showtea" style="display:none;">
+      <ul>
+      		<li> <a href="http://online.wanxue.cn/super/kaoyan/product/zyk/index.html" title="专业课老师 " target="_blank"><img src="http://kaoyan.wanxue.cn/statics/images/index_img/zyk-img.jpg" alt="专业课老师 " border="0" height="180" width="960"></a>
+      		</li>
+       </ul>
+    </div>
+  </div>
+  <!-- <div class="bMar30"><a href="http://kaoyan.wanxue.cn/index.php?m=content&c=index&a=lists&catid=704" target="_blank"><img src="http://kaoyan.wanxue.cn/statics/images//index_img/focusimg.gif" /></a></div> -->
+  <!--考研资讯-->
+  <div class="con03 clearfix">
+    <h2>
+      <p class="fr more2"><a href="http://kaoyan.wanxue.cn/zixun/kuaixun/">考研动态</a> | <a href="http://kaoyan.wanxue.cn/zixun/baokao/">报考指南</a> | <a href="http://kaoyan.wanxue.cn/zixun/tiaoji/">调剂信息</a> | <a href="http://kaoyan.wanxue.cn/zixun/fushi/">复试信息</a> | <a href="http://kaoyan.wanxue.cn/zixun/zhaosheng/">招生信息</a> | <a href="http://kaoyan.wanxue.cn/zixun/fenshuxian/">分数线</a> | <a href="http://kaoyan.wanxue.cn/zixun/chengji/">成绩查询</a></p>
+      <span class="fl">考研资讯</span></h2>
+    <div class="conl2 tMar30 fl">
+      <div class="bbor clearfix">
+        <div class="w305 rMar25 fl">
+          <h3>考研动态</h3>
+          <dl class="bbor2">
+          			            <dt><a href="http://s.wanxue.cn/sls/liveVideoView/queryLivePublicLesson" title="2017考研启动全项规划"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2016/0225/20151229014137233.jpg" width="102" height="75" /></a></dt>
+            <dd class="tit2"><a href="http://s.wanxue.cn/sls/liveVideoView/queryLivePublicLesson" title="2017考研启动全项规划" target="_blank">2017考研启动全项规划</a></dd>
+            <dd>海文考研特推出《2017考研启动全项规划》课...<a href="http://s.wanxue.cn/sls/liveVideoView/queryLivePublicLesson" title="海文考研特推出《2017考研启动全项规划》课程：1、为什么要考研；2、考研宏观形式；3、热门专硕学硕解析；4、院校专业选择；5、考研全流程解析。" target="_blank">详细</a></dd>
+            		            </dl>
+          <ul class="tMar15">
+          			            <li>· <a href="http://kaoyan.wanxue.cn/zixun/kuaixun/12763-1.html" title="兰州财经大学明年拟招硕士生316名" target="_blank" >兰州财经大学明年拟招硕士生316名</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/kuaixun/12757-1.html" title="2017考研：34所，可别搞错了" target="_blank" >2017考研：34所，可别搞错了</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/kuaixun/12753-1.html" title="2017年考研大纲发布时间及内容变化预测" target="_blank" >2017年考研大纲发布时间及内容变化预测</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/kuaixun/12746-1.html" title="2017考研：招生简章发布之后你需了解的信息" target="_blank" >2017考研：招生简章发布之后你需了解的信息</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/kuaixun/12700-1.html" title="2017考研常识：考研考试科目" target="_blank" >2017考研常识：考研考试科目</a></li>
+            		            </ul>
+        </div>
+        <div class="w305 fr">
+          <h3>调剂信息</h3>
+          <dl class="bbor2">
+          			            <dt><a href="http://kaoyan.wanxue.cn/zixun/tiaoji/12306-1.html" title="北京城市学院2016年研究生调剂热招中！"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2016/0316/20160316042540417.jpg" width="102" height="75" /></a></dt>
+            <dd class="tit2"><a href="http://kaoyan.wanxue.cn/zixun/tiaoji/12306-1.html" title="北京城市学院2016年研究生调剂热招中！" target="_blank">北京城市学院2016年研究生调</a></dd>
+            <dd>北京城市学院关于招收部分硕士研究生调剂考...<a href="http://kaoyan.wanxue.cn/zixun/tiaoji/12306-1.html" title="北京城市学院关于招收部分硕士研究生调剂考生的通知　　2016年我校研究生招生有部分调剂名额，为方便广大考生开展调剂申请，现将我校2016年   " target="_blank">详细</a></dd>
+            		            </dl>
+          <ul class="tMar15">
+          			            <li>· <a href="http://kaoyan.wanxue.cn/zixun/tiaoji/12521-1.html" title="2016年中共广东省委党校考研调剂信息" target="_blank" >2016年中共广东省委党校考研调剂信息</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/tiaoji/12520-1.html" title="2016年山东交通学院考研调剂信息" target="_blank" >2016年山东交通学院考研调剂信息</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/tiaoji/12505-1.html" title="2016年内蒙古医科大学考研第三次复试调剂通知" target="_blank" >2016年内蒙古医科大学考研第三次复试调剂通知</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/tiaoji/12487-1.html" title="2016年南京财经大学MPACC(定向班)考研调剂通知" target="_blank" >2016年南京财经大学MPACC(定向班)考研调剂通知</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/tiaoji/12486-1.html" title="2016年山西医科大学考研校外调剂公告(第五批)" target="_blank" >2016年山西医科大学考研校外调剂公告(第五批)</a></li>
+            		            </ul>
+        </div>
+      </div>
+      <div class="rMar25 clearfix">
+        <div class="w305 rMar25 fl">
+          <h3>报考指南</h3>
+          <dl class="bbor2">
+          			            <dt><a href="http://kaoyan.wanxue.cn/special/2016/fstj/" title="2016考研复试调剂协议班"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2015/1229/20151229020218647.jpg" width="102" height="75" /></a></dt>
+            <dd class="tit2"><a href="http://kaoyan.wanxue.cn/special/2016/fstj/" title="2016考研复试调剂协议班" target="_blank">2016考研复试调剂协议班</a></dd>
+            <dd>2016考研初试已经结束，马上迎来的将是2016...<a href="http://kaoyan.wanxue.cn/special/2016/fstj/" title="2016考研初试已经结束，马上迎来的将是2016考研复试调剂的过程，你还在犹豫吗？海文考研名师为你指导考研复试调剂！" target="_blank">详细</a></dd>
+            		            </dl>
+          <ul class="tMar15">
+          			            <li>· <a href="http://kaoyan.wanxue.cn/zixun/baokao/12768-1.html" title="2017跨专业考研：三方面思考是否合理" target="_blank" >2017跨专业考研：三方面思考是否合理</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/baokao/12767-1.html" title="专科生和自考生可以考研吗?" target="_blank" >专科生和自考生可以考研吗?</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/baokao/12766-1.html" title="17年考研：八月份要怎样复习" target="_blank" >17年考研：八月份要怎样复习</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/baokao/12765-1.html" title="2017考研：院校难度评估八因素" target="_blank" >2017考研：院校难度评估八因素</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/baokao/12764-1.html" title="2017考研：7所体育强校推荐" target="_blank" >2017考研：7所体育强校推荐</a></li>
+            		          </div>
+        <div class="w305 fr">
+          <h3>复试信息</h3>
+          <dl class="bbor2">
+          			            <dt><a href="http://kaoyan.wanxue.cn/zixun/fushi/12307-1.html" title="2016考研复试调剂流程图"  target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2016/0316/20160316040448601.jpg" width="102" height="75" /></a></dt>
+            <dd class="tit2"><a href="http://kaoyan.wanxue.cn/zixun/fushi/12307-1.html" title="2016考研复试调剂流程图" target="_blank">2016考研复试调剂流程图</a></dd>
+            <dd>初试之后感觉自己发挥得不好，估分之后分数...<a href="http://kaoyan.wanxue.cn/zixun/fushi/12307-1.html" title="初试之后感觉自己发挥得不好，估分之后分数线有点玄的同学，除了准备复试的内容之外，更要早点了解调剂的信息，做好多重准备。以下是一张复试调剂流程图：" target="_blank">详细</a></dd>
+           		            </dl>
+          <ul class="tMar15">
+          			            <li>· <a href="http://kaoyan.wanxue.cn/zixun/fushi/12519-1.html" title="2016年齐鲁工业大学考研破格复试名单公示" target="_blank" >2016年齐鲁工业大学考研破格复试名单公示</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/fushi/12518-1.html" title="2016年北京物资学院考研调剂考生第九批次复试安排表" target="_blank" >2016年北京物资学院考研调剂考生第九批次复试安</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/fushi/12504-1.html" title="2016年信阳师范学院考研第二批复试名单" target="_blank" >2016年信阳师范学院考研第二批复试名单</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/fushi/12485-1.html" title="2016年北京石油化工学院考研复试名单公示" target="_blank" >2016年北京石油化工学院考研复试名单公示</a></li>
+                        <li>· <a href="http://kaoyan.wanxue.cn/zixun/fushi/12484-1.html" title="2016年信阳师范学院考研第二批复试安排" target="_blank" >2016年信阳师范学院考研第二批复试安排</a></li>
+            		          </div>
+      </div>
+    </div>
+    <!--考研资讯右侧-->
+    <div class="conr2 tMar30 fr">
+      <div class="bbor">
+        <h3 class="zxico">招生信息</h3>
+        <ul>
+        						<li>· <a href="http://kaoyan.wanxue.cn/zixun/zhaosheng/12779-1.html" title="2017年上海理工大学考研参考书目" target="_blank">2017年上海理工大学考研参考书目</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/zhaosheng/12778-1.html" title="2017年安徽师范大学考研参考书目" target="_blank">2017年安徽师范大学考研参考书目</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/zhaosheng/12777-1.html" title="2017年中国科学院武汉病毒研究所考研考试科目变更的通知" target="_blank">2017年中国科学院武汉病毒研究所考研考试科目变</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/zhaosheng/12776-1.html" title="2017年西南石油大学考研专业目录" target="_blank">2017年西南石油大学考研专业目录</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/zhaosheng/12775-1.html" title="2017年吉林大学商学院工商管理硕士(MBA)招生简章" target="_blank">2017年吉林大学商学院工商管理硕士(MBA)招生简章</a></li>
+						
+		        </ul>
+      </div>
+      <div class="bbor">
+        <h3 class="zxico score">分数线</h3>
+        <ul>
+        						<li>· <a href="http://kaoyan.wanxue.cn/zixun/fenshuxian/12286-1.html" title="2016考研国家线对比（专业学位）" target="_blank">2016考研国家线对比（专业学位）</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/fenshuxian/12285-1.html" title="2016考研国家线对比（学术学位）" target="_blank">2016考研国家线对比（学术学位）</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/fenshuxian/12282-1.html" title="武汉大学2016考研分数线" target="_blank">武汉大学2016考研分数线</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/fenshuxian/12199-1.html" title="34所高校2016年考研复试分数线" target="_blank">34所高校2016年考研复试分数线</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/fenshuxian/12274-1.html" title="2016考研国家线公布了" target="_blank">2016考研国家线公布了</a></li>
+						
+		        </ul>
+      </div>
+      <div>
+        <h3 class="zxico grade">成绩查询</h3>
+        <ul>
+        						<li>· <a href="http://kaoyan.wanxue.cn/zixun/chengji/12290-1.html" title="考研成绩复查结果在各校官网公布" target="_blank">考研成绩复查结果在各校官网公布</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/chengji/12144-1.html" title="2016天津职业技术师范大学考研成绩复查办法" target="_blank">2016天津职业技术师范大学考研成绩复查办法</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/chengji/12143-1.html" title="2016天津外国语大学考研成绩公布" target="_blank">2016天津外国语大学考研成绩公布</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/chengji/12142-1.html" title="2016年天津理工大学考研成绩复查办法" target="_blank">2016年天津理工大学考研成绩复查办法</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/chengji/12141-1.html" title="2016年中国矿业大学考研初试成绩复查结果" target="_blank">2016年中国矿业大学考研初试成绩复查结果</a></li>
+						<li>· <a href="http://kaoyan.wanxue.cn/zixun/chengji/12140-1.html" title="华中科技大学2016考研分数线3月4日左右公布" target="_blank">华中科技大学2016考研分数线3月4日左右公布</a></li>
+						
+		        </ul>
+      </div>
+    </div>
+  </div>
+  <!--焦点图-->
+  <div class="tMar20"><a href="http://kaoyan.wanxue.cn/zt/zsk/" target="_blank"><img src="http://kaoyan.wanxue.cn/statics/images//index_img/focusimg2.jpg" title="考研钻石卡高端辅导系统" /></a></div>
+  <!--备考辅导-->
+  <div class="con03 tMar30 bkbor">
+    <h2>
+      <p class="fr more2"><a href="http://kaoyan.wanxue.cn/gonggongke/zhengzhi/">考研政治</a> | <a href="http://kaoyan.wanxue.cn/gonggongke/shuxue/">考研数学</a> | <a href="http://kaoyan.wanxue.cn/zhuanyeke/beikao/">考研专业课</a> | <a href="http://kaoyan.wanxue.cn/gonggongke/yingyu/">考研英语</a> | <a href="http://kaoyan.wanxue.cn/zhuanshuo/beikao/">专业硕士</a> | <a href="http://kaoyan.wanxue.cn/gonggongke/fushitiaoji/">复试调剂</a></p>
+      <span class="fl">备考辅导</span></h2>
+    <div class="tMar15 clearfix">
+      <div class="fl bkconl">
+        <div class="w265">
+          <h3 class="tMar15"><span class="tit3"></span>考研政治</h3>
+          <dl>
+                                    <dt><a href="/gonggongke/zhengzhi/zonghe/5445-1.html" title="2017考研政治全年复习规划" target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2015/1207/20151207100803795.jpg" width="102" height="75" /></a></dt>
+            <dd class="tit2"><a href="/gonggongke/zhengzhi/zonghe/5445-1.html" title="2017考研政治全年复习规划" target="_blank">2017考研政治全年复习</a></dd>
+            <dd>　　我们都知道，机会是给有准备的人的。虽...<a href="/gonggongke/zhengzhi/zonghe/5445-1.html" title="　　我们都知道，机会是给有准备的人的。虽然现在距离2017年考研时间还非常宽裕，但是，准备参加2017年考研的同学也应该尽早做准备了。当然..." target="_blank" class="more3">详细</a></dd>
+            		
+                    </dl>
+          <ul>
+                                  <li><a href="/gonggongke/zhengzhi/zonghe/6624-1.html" title="2017考研政治：高频人物、著作大总结" target="_blank">· 2017考研政治：高频人物、著作大总结</a></li>
+                        <li><a href="/gonggongke/zhengzhi/xingzheng/6623-1.html" title="2017考研时事政治：2016年7月26日时政要闻" target="_blank">· 2017考研时事政治：2016年7月26日时政要闻</a></li>
+                        <li><a href="/gonggongke/zhengzhi/xingzheng/6615-1.html" title="2017考研时事政治：2016年7月25日时政要闻" target="_blank">· 2017考研时事政治：2016年7月25日时政要闻</a></li>
+            		
+                    </ul>
+        </div>
+        <div class="w265">
+          <h3 class="tMar25"><span class="tit3"></span>考研英语</h3>
+          <dl>
+                                    <dt><a href="http://kaoyan.wanxue.cn/gonggongke/yingyu/zonghe/5448-1.html" title="2017考研英语备考开始了" target="_blank"><img src="http://kaoyan.wanxue.cn/uploadfile/2015/0702/20150702042945913.jpg" width="102" height="75" /></a></dt>
+            <dd class="tit2"><a href="http://kaoyan.wanxue.cn/gonggongke/yingyu/zonghe/5448-1.html" title="2017考研英语备考开始了" target="_blank">2017考研英语备考开始</a></dd>
+            <dd>　　考研英语和中国其他英语考试一样，极其...<a href="http://kaoyan.wanxue.cn/gonggongke/yingyu/zonghe/5448-1.html" title="　　考研英语和中国其他英语考试一样，极其注重精读能力，而且融合了高中语文考试的特点，有可能看得懂文章，但是依然做不对题。这个根源仍..." target="_blank" class="more3">详细</a></dd>
+            		
+                    </dl>
+          <ul>
+                                  <li><a href="/gonggongke/yingyu/fanyi/6620-1.html" title="2017考研英语：翻译题思路分享" target="_blank">· 2017考研英语：翻译题思路分享</a></li>
+                        <li><a href="/gonggongke/yingyu/yuedu/6619-1.html" title="考研英语阅读57条答题技巧" target="_blank">· 考研英语阅读57条答题技巧</a></li>
+                        <li><a href="/gonggongke/yingyu/zonghe/6618-1.html" title="2017考研英语：英语知识运用" target="_blank">· 2017考研英语：英语知识运用</a></li>
+            		
+                    </ul>
+        </div>
+      </div>
+      <div class="fl lMar20">
+        <h3 class="tMar15">考研数学</h3>
+        <ul>
+        		            <li><a href="/gonggongke/shuxue/zonghe/6622-1.html" title="2017考研数学：高数定理的证明" target="_blank">· 2017考研数学：高数定理的证明</a></li>
+                    <li><a href="/gonggongke/shuxue/zonghe/6621-1.html" title="2017考研数学：线代复习三个建议" target="_blank">· 2017考研数学：线代复习三个建议</a></li>
+                    <li><a href="/gonggongke/shuxue/zonghe/6600-1.html" title="2017考研数学导数应用你了解多少" target="_blank">· 2017考研数学导数应用你了解多少</a></li>
+                    <li><a href="/gonggongke/shuxue/zonghe/6584-1.html" title="2017考研数学：解题方法侧重常规不在于新奇" target="_blank">· 2017考研数学：解题方法侧重常规不在于新奇</a></li>
+                    <li><a href="/gonggongke/shuxue/zonghe/6583-1.html" title="2017考研数学：强化复习任务及做题方法" target="_blank">· 2017考研数学：强化复习任务及做题方法</a></li>
+                    <li><a href="/gonggongke/shuxue/zonghe/6575-1.html" title="2017考研数学一二三你了解多少" target="_blank">· 2017考研数学一二三你了解多少</a></li>
+                    <li><a href="/gonggongke/shuxue/zonghe/6548-1.html" title="2017考研数学高频考点有哪些" target="_blank">· 2017考研数学高频考点有哪些</a></li>
+          		
+		        </ul>
+        <h3 class="tMar15">专业硕士</h3>
+        <ul>
+        		            <li><a href="/zhuanshuo/beikao/falv/5703-1.html" title="2017法硕考研专业课复习方法五点建议" target="_blank">· 2017法硕考研专业课复习方法五点建议</a></li>
+                    <li><a href="/zhuanshuo/beikao/guanli/5521-1.html" title="2017年考研管综逻辑题之焦点争论" target="_blank">· 2017年考研管综逻辑题之焦点争论</a></li>
+                    <li><a href="/zhuanshuo/beikao/falv/5433-1.html" title="万学海文2017年考研法律硕士备考指导(法学)" target="_blank">· 万学海文2017年考研法律硕士备考指导(法学)</a></li>
+                    <li><a href="/zhuanshuo/beikao/falv/5432-1.html" title="法硕综合复习方法" target="_blank">· 法硕综合复习方法</a></li>
+                    <li><a href="/zhuanshuo/beikao/falv/5431-1.html" title="法硕冲刺技巧浅谈一二" target="_blank">· 法硕冲刺技巧浅谈一二</a></li>
+                    <li><a href="/zhuanshuo/beikao/falv/5430-1.html" title="法硕口诀加强记忆方法" target="_blank">· 法硕口诀加强记忆方法</a></li>
+          		
+		        </ul>
+      </div>
+      <div class="fr">
+        <h3 class="tMar15">考研专业课</h3>
+        <ul>
+        		            <li><a href="/zhuanyeke/beikao/xinlixue/6362-1.html" title="心理学考研全程规划" target="_blank">· 心理学考研全程规划</a></li>
+                    <li><a href="/zhuanyeke/beikao/lishixue/6351-1.html" title="世界现代史：第二次世界大战中的四大国际会议(二)" target="_blank">· 世界现代史：第二次世界大战中的四大国际会议(二)</a></li>
+                    <li><a href="/zhuanyeke/beikao/lishixue/6350-1.html" title="世界现代史：第二次世界大战中的四大国际会议(一)" target="_blank">· 世界现代史：第二次世界大战中的四大国际会议(一)</a></li>
+                    <li><a href="/zhuanyeke/beikao/jiaoyuxue/6349-1.html" title="2017考研：教育学专业课复习建议" target="_blank">· 2017考研：教育学专业课复习建议</a></li>
+                    <li><a href="/zhuanyeke/beikao/lishixue/6321-1.html" title="考研历史学答题技巧——论述题" target="_blank">· 考研历史学答题技巧——论述题</a></li>
+                    <li><a href="/zhuanyeke/beikao/xinlixue/5781-1.html" title="2017考研心理测量知识点：人格测验" target="_blank">· 2017考研心理测量知识点：人格测验</a></li>
+                    <li><a href="/zhuanyeke/beikao/jiaoyuxue/5755-1.html" title="教育学之教育学原理简介" target="_blank">· 教育学之教育学原理简介</a></li>
+          		
+		        </ul>
+        <h3 class="tMar15">复试调剂</h3>
+        <ul>
+        		            <li><a href="/gonggongke/fushitiaoji/6031-1.html" title="文科专业调剂经验" target="_blank">· 文科专业调剂经验</a></li>
+                    <li><a href="/gonggongke/fushitiaoji/6030-1.html" title="复试论文查重相似度过高怎么办" target="_blank">· 复试论文查重相似度过高怎么办</a></li>
+                    <li><a href="/gonggongke/fushitiaoji/5955-1.html" title="考研复试听力和口语" target="_blank">· 考研复试听力和口语</a></li>
+                    <li><a href="/gonggongke/fushitiaoji/5954-1.html" title="复试材料：各类考生携带材料盘点" target="_blank">· 复试材料：各类考生携带材料盘点</a></li>
+                    <li><a href="/gonggongke/fushitiaoji/5953-1.html" title="考研英语复试口语问题　" target="_blank">· 考研英语复试口语问题　</a></li>
+                    <li><a href="/gonggongke/fushitiaoji/5952-1.html" title="复试结束后，你必须要知道的事" target="_blank">· 复试结束后，你必须要知道的事</a></li>
+          		
+		        </ul>
+      </div>
+    </div>
+  </div>
+  <!--万学投资机构-->
+    <div class="tzjg tMar20 bMar20 clearfix">
+      <h2 style="color: #666;font-size: 18px; font-weight: 500;font-family: '微软雅黑';padding-bottom: 10px;">万学投资机构</h2>
+        <ul class="clearfix oh pl0">
+            <li><a href="http://www.legendcapital.com.cn/" target="_blank"><img width="225" src="http://kaoyan.wanxue.cn/statics/images/index_img/logo1.png"></a><a href="http://www.legendcapital.com.cn/" target="_blank" class="name" title="君联资本（联想投资）">君联资本（联想投资）</a></li>
+            <li><a href="http://www.sequoiacap.cn/zh/" target="_blank"><img width="224" src="http://kaoyan.wanxue.cn/statics/images/index_img/logo2.png"></a><a href="http://www.sequoiacap.cn/zh/" target="_blank" class="name" title="红杉资本">红杉资本</a></li>
+            <li><a href="http://www.dcm.com/cn" target="_blank"><img src="http://kaoyan.wanxue.cn/statics/images/index_img/logo17.png"></a><a href="http://www.dcm.com/cn" target="_blank" class="name" title="DCM投资基金">DCM投资基金</a></li>
+            <li><a href="http://www.baidu.com"><img src="http://kaoyan.wanxue.cn/statics/images/index_img/logo15.png"></a><a href="http://www.baidu.com" target="_blank" class="name" title="百度">百度</a></li>
+            <li><a href="http://haocapital.net/" target="_blank"><img src="http://kaoyan.wanxue.cn/statics/images/index_img/logo16.png"></a><a href="http://haocapital.net/" target="_blank" class="name" title="浩然资本">浩然资本</a></li>
+            <li><a href="http://www.chinarenaissance.com/cn/" target="_blank"><img src="http://kaoyan.wanxue.cn/statics/images/index_img/logo3.png"></a><a href="http://www.chinarenaissance.com/cn/" target="_blank" class="name" title="华兴资本">华兴资本</a></li>
+        </ul>
+    </div>
+
+  <!--友情链接-->
+  <div class="friendlink tMar20 clearfix">
+    <h2 style="font-size: 18px;">友情链接</h2>
+    <ul>
+      <li><a href="http://edu.qq.com" title="腾讯教育"><img src="http://kaoyan.wanxue.cn/statics/images/newimages/hzhb-pic01.jpg" width="108" height="31" border="0" /></a></li>
+      <li><a href="http://learning.sohu.com/" title="搜狐教育"><img src="http://kaoyan.wanxue.cn/statics/images/newimages/hzhb-pic02.jpg" width="108" height="31" border="0" /></a></li>
+      <li><a href="http://edu.ifeng.com/" title="凤凰教育"><img src="http://kaoyan.wanxue.cn/statics/images/newimages/hzhb-pic03.jpg" width="108" height="31" border="0" /></a></li>
+      <li><a href="http://edu.163.com/" title="网易教育"><img src="http://kaoyan.wanxue.cn/statics/images/newimages/hzhb-pic04.jpg" width="108" height="31" border="0" /></a></li>
+      <li><a href="http://ky.kaoyan.com/" title="考研加油站"><img src="http://kaoyan.wanxue.cn/statics/images/newimages/hzhb-pic05.jpg" width="108" height="31" border="0" /></a></li>
+      <li><a href="http://edu.people.com.cn/" title="人民网"><img src="http://kaoyan.wanxue.cn/statics/images/newimages/hzhb-pic06.jpg" width="108" height="31" border="0" /></a></li>
+      <li><a href="http://edu.sina.com.cn/" title="新浪教育"><img src="http://kaoyan.wanxue.cn/statics/images/newimages/hzhb-pic07.jpg" width="108" height="31" border="0" /></a></li>
+      <li class="rm0"><a href="http://learning.sohu.com/" title="搜狐教育"><img src="http://kaoyan.wanxue.cn/statics/images/newimages/hzhb-pic02.jpg" width="108" height="31" border="0" /></a></li>
+    </ul>
+  </div>
+</div>
+<!--footer-->
+<div class="footer tMar30">
+  <div class="w960 bottom">
+    <p> 
+        <a href="http://kaoyan.wanxue.cn/s/one/wx_glory.html">关于我们</a> | 
+        <a href="http://search.51job.com/list/co,c,1763003,0000,10,1.html">加入我们</a> | 
+        <a href="http://kaoyan.wanxue.cn/sitemap.html">网站地图</a>  | 
+        <a href="http://kaoyan.wanxue.cn/s/join">诚邀加盟</a><br/>
+        北京万学教育科技有限公司  版权所有 <span> 京ICP备11009428号-1</span>
+	
+        <script src='http://pw.cnzz.com/c.php?id=81464421&l=2' language='JavaScript' charset='gb2312'></script> 
+        <script type="text/javascript">
+            var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F41627ac5bccdb9575f93de27313541f8' type='text/javascript'%3E%3C/script%3E")); 
+        </script> 
+        <br/>
+        公司地址：北京市海淀区北四环西路66号中国技术交易大厦 电话：400-676-9000（免费长途）
+    </p>
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=7360629"></script>
+<script type='text/javascript' src='http://tb.53kf.com/kf.php? arg=9006495&style=8'></script>
+</body>
+</html>

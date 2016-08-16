@@ -1,0 +1,50 @@
+{% extends "public.html" %}
+{% load AppFilter %}
+{% block title %}
+    Monitor data Info
+{% endblock %}
+
+{% block content %}
+
+  <div class="starter-template">
+        <h3 align="center">业务线监控</h3>
+
+    </div>
+
+
+
+    <div>
+    <table width="1014" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="searchtable">
+<form id="SearchForm" name="SearchForm" method="get" action="/webmonitor/monitordata/">
+  <tr>
+    <td height="88" align="right"><label>
+      选择业务应用：<select name="appid" id="appid" onchange="Reloaddate();">
+	{% for app in MonitorAppInfoobj %}
+		{% if  MonitorAppInforow %}
+			{% ifequal app.id  MonitorAppInforow.id %}
+				<option value="{{app.id}}" selected>{{app.appname}}({{app.isp}})</option>
+			{% else %}
+				<option value="{{app.id}}" >{{app.appname}}({{app.isp}})</option>
+			{% endifequal %}
+		{% else %}
+			<option value="{{app.id}}" >{{app.appname}}({{app.isp}})</option>
+		{% endif %}
+	{% endfor %}
+      </select><font color="#FF0000">*</font>
+    </label></td>
+    <td align="center">
+起始时间：<input readonly="true" name="StartTime" type="text" id="StartTime" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd HH:mm:ss',minDate:'2010-11-18 00:00:00'})" value="{%  ifequal UserFind '1' %}{{StartTime|result_datetime}}{%endifequal%}">
+&nbsp;&nbsp;结束时间：<input readonly="true" name="EndTime" type="text" id="EndTime" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd HH:mm:ss',minDate:'2010-11-18 00:00:00'})" value="{%  ifequal UserFind '1' %}{{EndTime|result_datetime}}{%endifequal%}">
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" name="Submit" id="sys_run_button" value=" 开始监控 "  onclick="javascript:CheckSearchForm();"/></td>
+    </tr>
+</form>
+</table>
+    </div>
+
+
+<iframe src="/webmonitor/monitorlist/?appid={{ID}}&StartTime={{StartTime}}&EndTime={{EndTime}}" width="100%" height="550" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes" align="center"></iframe>
+
+
+
+
+{% endblock %}

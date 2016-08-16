@@ -1,0 +1,46 @@
+{% extends "public.html" %}
+
+{% block title %}
+    List monitor
+{% endblock %}
+
+{% block content %}
+
+    <div class="btn-toolbar">
+        <div class="btn-group">
+            {% url "monitoraddurl" as thewebmonitoraddurl %}
+            <a class="btn btn-default {%if request.path == thewebmonitoraddurl%} active {%endif%}" href={{ thewebmonitoraddurl }}><span class="glyphicon glyphicon-edit"></span>添加应用</a>
+           {% url "listmonitorurl" as thelistmonitorurl %}
+            <a class="btn btn-default {%if request.path == thelistmonitorurl%} active {%endif%}" href={{ thelistmonitorurl }}><span class="glyphicon glyphicon-list"></span>应用列表</a>
+        </div>
+    </div>
+
+    <hr/>
+<table class="table table-hover table-striped  table-bordered table-condensed">
+        <tr>
+            <th>业务名称</th>
+            <th>监控URL</th>
+            <th>侦测线路</th>
+            <th>通知方式</th>
+            <th>状态码</th>
+            <th>操作</th>
+        </tr>
+
+            {% for i in lPage %}
+                <tr style="font-size: 13px;">
+                    <td>{{ i.appname }}</td>
+                    <td>{{ i.url }}</td>
+                    <td>{{ i.isp}}</td>
+                    <td>{{ i.alarmtype }}</td>
+                    <td>{{ i.alarmconditions }}</td>
+
+                <td class="host_buttom">
+                        <a class="btn btn-warning btn-xs"  href={% url "monitorediturl" i.id %} onclick="return confirm('是否确认编辑？')">编辑</a>
+                        <a class="btn btn-danger btn-xs" href={% url "monitordelurl" i.id %} onclick="return confirm('是否确认删除？')">删除</a>
+                    </td>
+                </tr>
+            {% endfor %}
+
+        </table>
+{% include "paginator.html" %}
+{% endblock %}
